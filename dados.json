@@ -1,0 +1,32 @@
+{
+  "pecas": [
+    {
+      "id": "1",
+      "peso": 98.0,
+      "cor": "azul",
+      "comprimento": 17.0,
+      "status": "aprovada",
+      "motivos_reprovacao": []
+    },
+    {
+      "id": "2",
+      "peso": 70.0,
+      "cor": "amarelo",
+      "comprimento": 100.0,
+      "status": "reprovada",
+      "motivos_reprovacao": [
+        "Peso fora do intervalo (95 a 105g).",
+        "Cor inválida (apenas 'azul' ou 'verde').",
+        "Comprimento fora do intervalo (10 a 20cm)."
+      ]
+    },
+    {
+      "id": "3",
+      "peso": 95.0,
+      "cor": "verde",
+      "comprimento": 12.0,
+      "status": "aprovada",
+      "motivos_reprovacao": []
+    }
+  ]
+}
